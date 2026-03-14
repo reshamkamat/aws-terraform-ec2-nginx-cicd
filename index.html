@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AWS Terraform CI/CD Project</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+      color: #ffffff;
+      min-height: 100vh;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 60px 20px;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 80px 20px 50px;
+    }
+
+    .badge {
+      display: inline-block;
+      background-color: #f97316;
+      color: white;
+      padding: 10px 18px;
+      border-radius: 30px;
+      font-size: 14px;
+      margin-bottom: 20px;
+      font-weight: bold;
+    }
+
+    h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+      line-height: 1.2;
+    }
+
+    .highlight {
+      color: #f97316;
+    }
+
+    .subtitle {
+      font-size: 20px;
+      color: #cbd5e1;
+      max-width: 750px;
+      margin: 0 auto 30px;
+      line-height: 1.6;
+    }
+
+    .info-box {
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      border-radius: 16px;
+      padding: 30px;
+      margin-top: 40px;
+      backdrop-filter: blur(6px);
+    }
+
+    .section-title {
+      font-size: 28px;
+      margin-bottom: 20px;
+      color: #f8fafc;
+      text-align: center;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      margin-top: 25px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.06);
+      padding: 20px;
+      border-radius: 12px;
+      text-align: center;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+    }
+
+    .card h3 {
+      color: #f97316;
+      margin-bottom: 10px;
+      font-size: 20px;
+    }
+
+    .card p {
+      color: #e2e8f0;
+      font-size: 15px;
+      line-height: 1.5;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 50px;
+      color: #94a3b8;
+      font-size: 14px;
+    }
+
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 34px;
+      }
+
+      .subtitle {
+        font-size: 17px;
+      }
+
+      .hero {
+        padding-top: 40px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <section class="hero">
+      <div class="badge">AWS + Terraform + Nginx</div>
+      <h1>Cloud Infrastructure Project with <span class="highlight">Terraform</span></h1>
+      <p class="subtitle">
+        This website is hosted on an AWS EC2 instance, provisioned using Terraform,
+        and served through Nginx. The next phase of this project is CI/CD automation
+        using GitHub Actions.
+      </p>
+    </section>
+
+    <section class="info-box">
+      <h2 class="section-title">Project Highlights</h2>
+
+      <div class="grid">
+        <div class="card">
+          <h3>AWS EC2</h3>
+          <p>Deployed a cloud-based Linux server on AWS for hosting the web application.</p>
+        </div>
+
+        <div class="card">
+          <h3>Terraform</h3>
+          <p>Provisioned infrastructure as code for repeatable, automated deployments.</p>
+        </div>
+
+        <div class="card">
+          <h3>Nginx</h3>
+          <p>Configured Nginx as the web server to host and serve the application.</p>
+        </div>
+
+        <div class="card">
+          <h3>CI/CD Ready</h3>
+          <p>Prepared this project for future deployment automation using GitHub Actions.</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="footer">
+      <p>Built as part of a hands-on DevOps and Cloud Engineering learning journey.</p>
+    </div>
+  </div>
+</body>
+</html>
