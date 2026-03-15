@@ -61,7 +61,7 @@ Workflow file location:
 
 ### Default Nginx Page
 
-![Nginx Default](screenshots/nginx-default-page.png)
+![Nginx Default](screenshots/nginx-default-page-before-deploy.png)
 
 
 ### Website Before CI/CD
