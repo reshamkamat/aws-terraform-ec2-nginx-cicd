@@ -58,19 +58,43 @@ Workflow file location:
 
 ## Screenshots
 
-### GitHub Actions CI/CD Pipeline
 
-![CI/CD Pipeline](screenshots/pipeline.png)
+### Default Nginx Page
+
+![Nginx Default](screenshots/nginx-default-page.png)
+
+
+### Website Before CI/CD
+![Website Before CI/CD](screenshots/website-before-cicd.png)
+
+
+### Website UI Before CI/CD
+![Website Before CI/CD](screenshots/website-ui-before-cicd.png)
+
+
+### Actions CI/CD Success
+
+![GitHub Actions CI/CD Success](screenshots/github-actions-cicd-success.png)
 
 ### Deployment Logs
 
-![Deployment Logs](screenshots/deploy.png)
+![Deployment Logs](screenshots/github-actions-deploy-logs.png)
 
 ### Live Website
 
-![Website](screenshots/website.png)
+![Live Website After CI/CD](screenshots/website-live-after-cicd.png)
 
 ---
+
+## Architecture
+
+Developer pushes code to GitHub repository.  
+GitHub Actions CI/CD pipeline triggers automatically.  
+The pipeline connects to the EC2 instance using SSH and deploys the updated website to the Nginx web server.
+
+![Architecture Diagram](screenshots/architecture.png)
+
+
 
 ## Project Highlights
 
